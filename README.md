@@ -5,10 +5,11 @@
 > **Symmetry** (MDPI), Vol. 17, Issue 7, Article 1109 (July 10, 2025).  
 > **DOI:** [10.3390/sym17071109](https://doi.org/10.3390/sym17071109)
 
-Live app - https://cpu-scheduling-for-database-via-reinforcement-learning.streamlit.app/
 ---
 
 ## 1. Project Overview
+
+Live app - https://cpu-scheduling-for-database-via-reinforcement-learning.streamlit.app/
 
 In modern multi-tenant and Hybrid Transactional/Analytical Processing (HTAP) database systems, diverse workloads compete simultaneously for computational resources:
 - **OLTP (Online Transaction Processing):** Short, bursty, latency-sensitive transactions (TPC-C / Sysbench) demanding strict $p_{99}$ latency guarantees.
