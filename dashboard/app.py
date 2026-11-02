@@ -11,12 +11,18 @@ Faithfully connects to the actual simulation and scheduling environment:
 import sys
 import os
 import time
+
+# Ensure repository root is in sys.path so modules (config, simulator, etc.) can be imported on Streamlit Cloud
+_repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if _repo_root not in sys.path:
+    sys.path.insert(0, _repo_root)
+
 import pandas as pd
 import numpy as np
 import streamlit as st
 import matplotlib.pyplot as plt
 
-# Bootstraps local cache for PyTorch/Matplotlib in sandboxed environments
+# Bootstraps local cache for PyTorch/Matplotlib
 import config
 from config.scheduler_config import (
     WorkloadConfig,
