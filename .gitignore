@@ -1,0 +1,28 @@
+# Bytecode & Runtime Cache
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+
+# Model Checkpoints & Large Binaries
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# External Cloned Repo
+PPO-for-CPU-Scheduling-main/
+
+# Temporary Extraction & Logs
+extracted_paper_text.txt
+*.log
+
+# IDE & OS Noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
