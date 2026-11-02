@@ -5,6 +5,7 @@
 > **Symmetry** (MDPI), Vol. 17, Issue 7, Article 1109 (July 10, 2025).  
 > **DOI:** [10.3390/sym17071109](https://doi.org/10.3390/sym17071109)
 
+Live app - https://cpu-scheduling-for-database-via-reinforcement-learning.streamlit.app/
 ---
 
 ## 1. Project Overview
